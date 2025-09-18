@@ -27,22 +27,36 @@
 // viewportHeight: 720,
 // });
 const { defineConfig } = require('cypress');
- 
+
 module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://opensource-demo.orangehrmlive.com',
+
+    setupNodeEvents(on, config) {
+      // you can implement node event listeners here if needed
+    },
   },
- 
+
+  // Reporter setup
+  reporter: 'mochawesome',
+  reporterOptions: {
+    reportDir: 'cypress/reports',
+    overwrite: false,
+    html: true,
+    json: true,
+  },
+
   // Screenshots
-  screenshotOnRunFailure: true, // Automatically capture screenshots on test failure
-  screenshotsFolder: 'cypress/screenshots', // Folder to save screenshots
- 
+  screenshotOnRunFailure: true,
+  screenshotsFolder: 'cypress/screenshots',
+
   // Video recording
-  video: true, // Record videos of test runs
-  videoUploadOnPasses: true, // Upload videos even for passing tests
-  videosFolder: 'cypress/videos', // Folder to save videos
- 
+  video: true,
+  videoUploadOnPasses: false,
+  videosFolder: 'cypress/videos',
+
   // Viewport size
   viewportWidth: 1280,
   viewportHeight: 720,
 });
+

@@ -3,7 +3,10 @@
     "allure-commandline": "^2.34.1",
     "cypress": "^15.2.0",
     "cypress-xpath": "^2.0.1",
-    "mocha-allure-reporter": "^1.4.0"
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.3.0"
   },
   "scripts": {
     "test": "cypress run",
