@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758169784567' stop='1758169802677'>
+    <name>Sauce Demo Spec</name>
+    <title>Sauce Demo Spec</title>
+    <test-cases>
+        <test-case start='1758169784585' status='passed' stop='1758169791001'>
+            <name>should verify item existence</name>
+            <title>should verify item existence</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169791042' status='passed' stop='1758169793056'>
+            <name>should toggle burger menu visibility</name>
+            <title>should toggle burger menu visibility</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169793102' status='passed' stop='1758169794564'>
+            <name>should verify text content</name>
+            <title>should verify text content</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169794579' status='passed' stop='1758169795784'>
+            <name>should check attributes</name>
+            <title>should check attributes</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169795831' status='passed' stop='1758169797035'>
+            <name>should verify CSS classes</name>
+            <title>should verify CSS classes</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169797065' status='passed' stop='1758169798264'>
+            <name>should check element lengths</name>
+            <title>should check element lengths</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169798291' status='passed' stop='1758169799499'>
+            <name>should chain assertions on Add to Cart button</name>
+            <title>should chain assertions on Add to Cart button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169799526' status='broken' stop='1758169801202'>
+            <name>should assert against a function for inventory items</name>
+            <title>should assert against a function for inventory items</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.should()` failed because you invoked a command inside the callback. `cy.should()` retries the inner function, which would result in commands being added to the queue multiple times. Use `cy.then()` instead of `cy.should()`, or move any commands outside the callback function.
+                
+                The command invoked was:
+                
+                  > `cy.task()`</message>
+                <stack-trace>CypressError: `cy.should()` failed because you invoked a command inside the callback. `cy.should()` retries the inner function, which would result in commands being added to the queue multiple times. Use `cy.then()` instead of `cy.should()`, or move any commands outside the callback function.
+                
+                The command invoked was:
+                
+                  > `cy.task()`
+                    at $Cypress.commandEnqueued (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:120977:68)
+                    at $Cypress.listener (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:144554:17)
+                    at EventEmitter.emit (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:144634:19)
+                    at parent.&lt;computed> [as emit] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:143543:31)
+                    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:41684:21)
+                    at $Cy.enqueue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:141948:25)
+                    at callback (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:141547:10)
+                    at cy.&lt;computed> [as task] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:141580:7)
+                    at Context.eval (webpack:///./cypress/e2e/Saucedemo.cy.js:59:9)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:120989:17)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4285:29)
+                    at Context.shouldFnWithCallback (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:120986:66)
+                    at Context.shouldFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:121029:37)
+                    at Context.should (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:121148:23)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:146456:39)
+                    at assertions (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:146704:16)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)
+                    at Object.gotValue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:6448:18)
+                    at Object.gotAccum (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:6435:25)
+                    at Object.tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1758169801255' status='passed' stop='1758169802676'>
+            <name>should verify URL checks</name>
+            <title>should verify URL checks</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

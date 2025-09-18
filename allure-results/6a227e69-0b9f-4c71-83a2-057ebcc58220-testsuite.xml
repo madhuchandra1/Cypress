@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758169863966' stop='1758169874179'>
+    <name>SauceDemo Command Chaining &amp; Control Flow</name>
+    <title>SauceDemo Command Chaining &amp; Control Flow</title>
+    <test-cases>
+        <test-case start='1758169863994' status='passed' stop='1758169870288'>
+            <name>uses .then() to extract and log item text</name>
+            <title>uses .then() to extract and log item text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169870402' status='passed' stop='1758169871970'>
+            <name>uses alias .as() and re-queries after click</name>
+            <title>uses alias .as() and re-queries after click</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169871998' status='passed' stop='1758169873027'>
+            <name>uses alias for logo and rechecks text</name>
+            <title>uses alias for logo and rechecks text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1758169873061' status='passed' stop='1758169874179'>
+            <name>uses .within() to scope commands inside inventory container</name>
+            <title>uses .within() to scope commands inside inventory container</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

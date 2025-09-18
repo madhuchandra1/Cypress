@@ -1,6 +1,14 @@
 {
   "devDependencies": {
+    "allure-commandline": "^2.34.1",
     "cypress": "^15.2.0",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "test:report": "cypress run --reporter mocha-allure-reporter",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
   }
 }

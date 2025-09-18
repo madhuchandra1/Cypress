@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758169809081' stop='1758169815319'>
+    <name>OrangeHRM Login</name>
+    <title>OrangeHRM Login</title>
+    <test-cases>
+        <test-case start='1758169809081' status='passed' stop='1758169815273'>
+            <name>should login with custom command</name>
+            <title>should login with custom command</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

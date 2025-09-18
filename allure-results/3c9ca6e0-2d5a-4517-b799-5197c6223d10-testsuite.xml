@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1758169815323' stop='1758169820622'>
+    <name>OrangeHRM Screenshot Examples</name>
+    <title>OrangeHRM Screenshot Examples</title>
+    <test-cases>
+        <test-case start='1758169815347' status='passed' stop='1758169820622'>
+            <name>demonstrates screenshot capabilities</name>
+            <title>demonstrates screenshot capabilities</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
